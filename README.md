@@ -10,4 +10,7 @@ Pull these files onto your local machine and place them into whatever folder you
 
 The chromedriver.exe file should be place in a separate folder with the address:  C:\Users\YourUser\Desktop\ProjectFolderName\WebDrivers\Chrome
 
-In the UnitTest.cs file, the private string DriverPath should be updated to reflect the new path of the chromedriver.exe file:  @"C:\Users\YourUser\Desktop\ProjectFolderName\WebDrivers\Chrome"
+In the UnitTest.cs file on line 11, the private string DriverPath should be updated to reflect the new path of the chromedriver.exe file:  @"C:\Users\YourUser\Desktop\ProjectFolderName\WebDrivers\Chrome"
+
+
+Next, the UserName and UserPassword strings on lines 36 and 37 will need to be updated with whatever you want to use.
